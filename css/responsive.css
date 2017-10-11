@@ -1,0 +1,83 @@
+@media (max-width: 360px) {}
+
+@media screen and (max-width: 464px) {
+  .buy{
+    background: #162146;
+  }
+
+  .buy p{
+    color: #fff;
+  }
+
+  .product .col-xs-12{
+    margin-bottom: 12px;
+  }
+
+  .whyus-col-1,.whyus-col-2,.whyus-col-3{
+    border: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .buy p{
+    padding-left: 0;
+  }
+
+  .buy-btn{
+    margin-left: 0;
+  }
+
+  .product-content{
+    margin-left: 0;
+  }
+
+  .about-text{
+    padding-bottom: 20px;
+  }
+
+  #map{
+    height: 300px;
+  }
+}
+
+@media (max-width: 992px) {}
+
+@media screen and (max-width: 1024px) {}
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {
+
+    .menu{
+      max-width: 300px;
+      margin-left: 12%;
+    }
+
+    /*.product-content{
+      margin-left: 7.5%;
+    }*/
+
+    .about-text{
+      margin-top: 20px;
+      max-width: 675px;
+      margin-left: 45px;
+    }
+
+    .pill-gap{
+      margin-top: 20px;
+    }
+}
+
+
+/* (1440x900) WXGA+ Display */
+@media  screen and (max-width: 1440px) {
+    .menu{
+      max-width: 330px;
+      margin-left: 13%;
+    }
+
+    .about-text{
+      max-width: 700px;
+      margin-top: 15px;
+      margin-left: 30px;
+    }
+}

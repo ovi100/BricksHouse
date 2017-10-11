@@ -1,0 +1,501 @@
+/****************Custom Fonts ******************/
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+
+/*********Common CSS For All**********/
+
+h1,h2,h3,
+h4,h5,h6{
+	color: #d66908;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+a,p{
+	color: #162146;
+}
+
+a:hover{
+	color: #d66908;
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+.color-wh{color: #fff;}
+
+.color-nb{color: #162146;}
+
+.color-or{color: #d66908;}
+
+.section-gap{
+	margin: 3% 0;
+}
+
+.section-padding{
+	padding: 2% 0;
+}
+
+.divider{
+	margin-top: 20px;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.header-bar-nb{
+	border-bottom: 6px dashed #162146;
+	width: 39px;
+	margin: 0 auto;
+}
+
+.header-bar-wh{
+	border-bottom: 6px dashed #fff;
+	width: 39px;
+	margin: 0 auto;
+}
+
+.bh-btn{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+}
+
+.btn-wh{
+	color: #162146;
+    background-color: #d66908;
+    border-color: #d66908;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+.btn-or{
+	color: #fff;
+    background-color: #d66908;
+    border-color: #d66908;
+    text-transform: uppercase;
+}
+
+
+
+.btn-wh:hover{
+	color: #d66908;
+    background-color: #fff;
+    border-color: #fff;
+    transition: all 0.8s ease 0s;
+}
+
+.btn-or:hover{
+	color: #fff;
+    background-color: #162146;
+    border-color: #162146;
+    transition: all 0.8s ease 0s;
+}
+
+
+
+/**************************************/
+
+/********CSS For Home Section*********/
+
+.home{
+	background: url("../images/home-bg.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 762px;
+
+}
+
+.menu{
+	background: rgba(255, 255, 255, 0.53);
+	max-width: 350px;
+	margin-left: 17%;
+	min-height: inherit;
+	padding: 15px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.logo img{
+	width: 50%;
+	height: 50%;
+}
+
+.menu ul{
+	margin-top: 20px;
+}
+
+.menu ul li a{
+	display: block;
+	padding-top: 35px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.social{
+	padding-top: 50px;
+}
+
+.social a{
+	padding-right: 10px;
+	margin-left: 8px;
+}
+
+.social a i{
+	width: 40px;
+	height: 40px;
+	color: #162146;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	border: 1px solid #162146;
+	border-radius: 50%;
+	line-height: 40px;
+}
+
+.social a:hover i{
+	border: 1px solid #d66908;
+	color: #d66908;
+	transition: all 0.5s ease 0s;
+}
+
+/******************************************/
+
+/***********CSS For Buy Section***********/
+
+.buy{
+	background: url("../images/buy-bg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 60px 0;
+}
+
+.buy p{
+	font-size: 20px;
+	font-weight: 600;
+	padding-left: 35%;
+}
+
+.buy-btn{
+	margin-top: 10px;
+	margin-left: -35%;
+}
+
+.buy-btn a{
+	font-weight: 600;
+}
+
+/*****************************************/
+
+/*********CSS For Product Section**********/
+
+.product{
+	background: url("../images/product-bg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 15px 0;
+	margin-top: -40px;
+}
+
+.product-content{
+	margin-top: 20px;
+	margin-left: 5.5%;
+}
+
+.product-item{
+	background: #fff;
+}
+
+.product-footer{
+	background: #162146;
+	width: 100%;
+	height: 30px;
+}
+
+.product-name{
+	padding-top: 5px;
+	padding-left: 15px;
+}
+
+.product-text{
+	font-size: 17px;
+	padding: 10px 15px;
+	text-align: justify;
+}
+
+.product-footer a{
+	color: #fff;
+	line-height: 30px;
+}
+
+.ft-text{
+	font-weight: 300;
+	float: left;
+	margin-left: 15px;
+}
+
+.ft-icon{
+	float: right;
+	font-size: 20px;
+	margin-right: 15px;
+}
+
+.product-footer:hover a{
+	color: #d66908;
+}
+
+.product-btn,.dealer-list-btn{
+	margin-top: 50px;
+	margin-bottom: 20px;
+  margin-left: -90px;
+	text-align: center;
+}
+
+/***************************************/
+
+/*******CSS For Partners Section********/
+
+.partner{
+	background: #162146;
+}
+
+.partner-content{
+	margin-top: 25px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 40px;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+	background: #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span{
+	background: #d66908;
+}
+
+/***************************************/
+
+/********CSS For Why Us Section*********/
+
+.whyus{
+	background: url("../images/whyus-bg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.whyus-content{
+	margin-top: 25px;
+}
+
+.media-left{
+	vertical-align: middle;
+}
+
+.media-left i{
+	width: 60px;
+	height: 60px;
+	background: #162146;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 60px;
+	text-align: center;
+}
+
+.whyus-col-1{
+	border-right: 1px solid #d66908;
+	border-bottom: 1px solid #d66908;
+}
+
+.whyus-col-2{
+	border-bottom: 1px solid #d66908;
+}
+
+.whyus-col-3{
+	border-right: 1px solid #d66908;
+}
+
+
+.whyus-text{
+	text-align: justify;
+}
+
+/***************************************/
+
+/*********CSS For About Us Section*********/
+
+.about-content{
+	background: #EEEEF0;
+	margin-top: 20px;
+}
+
+.about-text{
+	max-width: 600px;
+  margin-top: 55px;
+  margin-left: 90px;
+}
+
+.pill-gap{
+	margin-top: 50px;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover{
+	background: #fff;
+	border: 1px solid #d66908;
+	border-radius: 0;
+	color: #d66908;
+}
+
+.nav-pills>li>a{
+	background: #fff;
+  border: 1px solid #162146;
+  border-radius: 0;
+  color: #162146;
+  margin-right: 15px;
+}
+
+/**********************************************/
+
+/***********CSS For Gallery Section************/
+
+.gallery{
+	background: #162146;
+}
+
+/************************************************/
+
+/***********CSS For Dealer Section**************/
+
+.dealer-content{
+	padding-left: 40px;
+}
+
+.distance-btn{
+	width: 80%;
+}
+
+.distance-icon{
+	margin-top: 10px;
+}
+
+.unit-btn{
+	width: 80%;
+	margin-top: 25px;
+}
+
+.dealer-btn{
+	margin-top: 25px;
+}
+
+.dealer-btn a{
+	width: 60%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+#map{
+	width: 100%;
+	height: 400px;
+}
+
+/*********************************************/
+
+/**********CSS For Contact Section***********/
+
+.contact{
+	background: #CECECE;
+}
+
+.touch li p{
+	display: block;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.con-social{
+	margin-left: -18px;
+}
+
+.quick-link li a{
+	display: block;
+	font-size: 15px;
+	margin-bottom: 12px;
+}
+
+#name,#email,#message{
+	width: 80%;
+	border-radius: 0;
+	margin-bottom: 10px;
+}
+
+.btn-send{
+	background: #162146;
+  color: #fff;
+  width: 80%;
+  border: 1px solid #162146;
+  padding: 5px 0;
+}
+
+/*******************************************/
+
+/**********CSS For Footer Section***********/
+
+footer{
+	background: #d66908;
+	max-width: 100%;
+	height: 70px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+footer >p{
+	color: #000;
+}
+
+/*******************************************/
